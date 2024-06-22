@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>Password Checking with Jquery</legend>
+                <table cellpadding="30" cellspacing="20">
+                    <tr>
+                        <td>
+                            <label for="">Username</label>
+                        </td>
+                        <td colspan="3">
+                            <input type="text" id="username">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password">
+                        </td>
+                        <td id="situation" class="hidden">
+                            Password Situation
+                        </td>
+                        <td id="message" class="hidden">
+                            Give a Message
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Password again</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password-again">
+                        </td>
+                        <td id="message" colspan="2" class="hidden">
+                            Give a Message
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">History</label>
+                        </td>
+                        <td colspan="3">
+                            <textarea name="" id="" cols="30" rows="10" class="past"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td colspan="3">
+                            <button type="button">Send</button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
